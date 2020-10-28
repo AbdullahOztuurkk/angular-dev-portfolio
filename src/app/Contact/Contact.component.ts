@@ -11,13 +11,13 @@ export class ContactComponent implements OnInit {
   _userAddress:string;
   _userPhone:string;
   _userEmail:string;
-  constructor() { 
+  constructor() {
     this._userAddress=Configuration.userAddress;
     this._userPhone=Configuration.userPhone;
     this._userEmail=Configuration.userEmail;
   }
 
   ngOnInit() {
-  }
 
+  }
 }

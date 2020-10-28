@@ -7,7 +7,7 @@
   }
 .service-card{
     width: 100%;
-    height: 90px;
+    height: 120px;
     margin: 0px 15px;
 }
 .border{
@@ -18,13 +18,13 @@
 .service-icon{
     height: 100%;
     width: 25px;
+    color:green;
 }
 .contact-text{
     padding: 20px;
     margin-top: 20px;
 }
 .icon-text{
-    color: green;
     margin-left: 20px;
     margin-top: -20px;
     float: left;
