@@ -1,4 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
 .container {
     display: flex;
     width: 100%;
@@ -8,6 +7,7 @@
   }
 .service-card{
     width: 330px;
+    min-height: 188px;
     height: 100%;
     margin: 0px 15px;
 }
@@ -15,4 +15,17 @@
     border: 3px solid red;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+.service-icon{
+    height: 100%;
+    width: 25px;
+}
+.icon-text{
+    color: green;
+    margin-left: 0px;
+    margin-top: -20px;
+    float: left;
+}
+.middle-line{
+    border-right: 1px solid lightgray;
 }

@@ -1,0 +1,24 @@
+<div class="container border">
+    <div class="container-fluid">
+        <div class="service-card ml-auto" *ngFor="let item of _services; let indexElement=index">
+            <div *ngIf="indexElement % 2 == 0">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <i class="fa fa-tasks service-icon" aria-hidden="true"></i>
+                    <strong class="d-inline-block mb-2 text-success icon-text">{{item.serviceName}}</strong>
+                    <p class="p-3 mb-auto">{{item.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="service-card"  *ngFor="let item of _services; let indexElement=index">
+            <div *ngIf="indexElement % 2 == 1">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <i class="fa fa-tasks service-icon" aria-hidden="true"></i>
+                    <strong class="d-inline-block mb-2 text-success icon-text">{{item.serviceName}}</strong>
+                    <p class="p-3 mb-auto">{{item.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

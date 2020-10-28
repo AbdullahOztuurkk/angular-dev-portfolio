@@ -1,0 +1,24 @@
+<div class="container border">
+  <div class="container-fluid middle-line">
+      <div class="service-card ml-auto" *ngFor="let item of _jobs; let indexElement=index">
+          <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success icon-text">
+                <i class="fa fa-building service-icon" aria-hidden="true"></i>{{item.company}} - {{item.rank}}
+                <hr style="margin:1px !important;"><small>{{item.date}}</small>
+              </strong>
+              <p class="p-3 mb-auto">{{item.description}}</p>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+      <div class="service-card"  *ngFor="let item of _educations; let indexElement=index">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success icon-text">
+              <i class="fa fa-book service-icon" aria-hidden="true"></i>{{item.school}}
+              <hr style="margin:1px !important;"><small>{{item.date}}</small>
+            </strong>
+            <p class="p-3 mb-auto">{{item.description}}</p>
+          </div>
+      </div>
+  </div>
+</div>

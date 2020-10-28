@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="container-fluid">
+      <div class="service-card" *ngFor="let item of _testimonials; let indexElement=index">
+          <div *ngIf="indexElement % 2 == 0">
+              <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">{{item.company}}</strong>
+                  <h3 class="mb-0">{{item.name}}</h3>
+                  <p class="mb-auto">{{item.description}}</p>
+                  <span class="lead">{{ item.skillName }}</span>
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped" [ngClass]="giveStars(item.review)" role="progressbar" [style.width.%]="item.review" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+      <div class="service-card my-auto"  *ngFor="let item of _testimonials; let indexElement=index">
+          <div *ngIf="indexElement % 2 == 1">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">{{item.company}}</strong>
+              <h3 class="mb-0">{{item.name}}</h3>
+              <p class="mb-auto">{{item.description}}</p>
+              <span class="lead">{{ item.skillName }}</span>
+              <div class="progress">
+                  <div class="progress-bar progress-bar-striped" [ngClass]="giveStars(item.review)" role="progressbar" [style.width.%]="item.review" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+          </div>
+          </div>
+      </div>
+  </div>
+</div>
