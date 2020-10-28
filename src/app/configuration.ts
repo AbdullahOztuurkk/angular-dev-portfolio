@@ -5,7 +5,7 @@ export const Configuration =
     userJob:"Software Developer",
     userLocation:"İstanbul",
     userEmail:"test@abdullah.com",
-    userWebsite:"example.com",
+    userDateOfBirth:"12/12/2012",
     userAddress:"Chesterwood Dr Spotsylvania, Virginia(VA), 22553",    
     userPhone:"(540) 479-2232 10500",
     aboutMe:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit suscipit justo luctus commodo."+
@@ -65,3 +65,13 @@ export const Testimonials  =
 ];
 
 //Max testimonials limit is 4 . If you add more than 4 skill , you may be disappointed.
+
+export const SocialMedia =
+{
+    githubUrl:"github.com",
+    instagramUrl:"instagram.com",
+    twitterUrl:"twitter.com",
+    linkedinUrl:"linkedin.com",
+    mediumUrl:"medium.com",
+    facebookUrl:"facebook.com"
+}

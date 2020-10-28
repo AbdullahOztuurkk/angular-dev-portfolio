@@ -7,7 +7,16 @@
     <br>
     <i class="fa fa-envelope-o mb-3 ml-6" style="width: 25px;" aria-hidden="true"></i>{{_userEmail}}
     <br>
-    <i class="fa fa-link mb-3 ml-6" style="width: 25px;" aria-hidden="true"></i>{{_userWebsite}}
+    <i class="fa fa-birthday-cake mb-3 ml-6" style="width: 25px;" aria-hidden="true"></i>{{_userDateOfBirth}}
     <br>
 </div>
-
+<div class="card social-media">
+    <div class="col-md-12">
+        <i *ngIf="_instagramUrl" class="fa fa-instagram service-icon" aria-hidden="true"></i>
+        <i *ngIf="_linkedinUrl" class="fa fa-linkedin service-icon" aria-hidden="true"></i>
+        <i *ngIf="_mediumUrl" class="fa fa-medium service-icon" aria-hidden="true"></i>
+        <i *ngIf="_twitterUrl" class="fa fa-twitter service-icon" aria-hidden="true"></i>
+        <i *ngIf="_facebookUrl" class="fa fa-facebook service-icon" aria-hidden="true"></i>
+        <i *ngIf="_githubUrl" class="fa fa-github service-icon" aria-hidden="true"></i>
+    </div>
+</div>
