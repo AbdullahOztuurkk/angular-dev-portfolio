@@ -8,11 +8,7 @@ export const Configuration =
     userDateOfBirth:"12/12/2012",
     userAddress:"Chesterwood Dr Spotsylvania, Virginia(VA), 22553",    
     userPhone:"(540) 479-2232 10500",
-    aboutMe:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit suscipit justo luctus commodo."+
-    "Duis id efficitur lectus, non blandit ligula. Fusce rutrum finibus ex a ultricies. Etiam congue quam et scelerisque lacinia. Vestibulum "+
-    "sed mi tempus, lobortis eros ut, pulvinar metus. Suspendisse aliquam blandit imperdiet. Nam maximus, ligula blandit molestie fringilla, augue urna congue justo,"+
-    "vitae porta ante massa non nulla. Ut ac imperdiet orci, luctus ultricies neque. Phasellus id sagittis diam. Pellentesque habitant morbi tristique senectus et netus"+
-    "et malesuada fames ac turpis egestas.",
+    aboutMe:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed aliquam felis, quis pellentesque erat. Curabitur vel sodales purus. Nulla nibh mi, porttitor nec purus et, sagittis maximus justo. Suspendisse aliquam mauris id velit congue, vel volutpat nibh commodo. Pellentesque imperdiet enim id elementum commodo.",
 };
 //Personal Informations
 export const Skills  = 
@@ -24,6 +20,11 @@ export const Skills  =
     {skillName : "Typescript" , experience:76},
 ];
 //Max skills limit is 5 . If you add more than 5 skill , you may be disappointed.
+
+export const Skills2  = 
+[
+    "C#",".Net Core","Angular","Asp.Net","Typescript"
+];
 
 export const JobExperience  = 
 [

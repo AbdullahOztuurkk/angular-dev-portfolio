@@ -1,4 +1,4 @@
-<div class="card-body" style="height: 600px;">
+<!--<div class="card-body" style="height: 600px;">
   <div class="mt-5 m-3" style="height: 100%;">
     <h3>About Myself</h3>
     <p class="m-3 lead">{{ aboutMe }}</p>
@@ -9,5 +9,37 @@
       </div>
     </div>
   </div>
-</div>
+</div>-->
 
+<div class="about-top">
+  <div style="height: 30%;" class="row align-items-center">
+    <h3 class="about-title mx-auto">Hello , I Am</h3>
+  </div>
+  <div style="height: 70%;">
+    <p class="about-desc">{{ aboutMe }}</p>
+  </div>
+</div>
+<div class="about-content">
+  <div class="row ml-1">
+    <div class="col-md-7">
+      <div style="height: 30%;"  class="ml-2 row align-items-end">
+        <h4 style="color:blue; margin-top: 20px;">My Skills</h4>
+      </div>
+      <div style="height: 70%;">
+          <div *ngFor="let item of skills;let indexElement=index">
+            <div *ngIf="indexElement % 2 == 1">
+                <div class="skill-box">{{item}}</div>
+            </div>
+          </div>
+          <div *ngFor="let item of skills;let indexElement=index">
+            <div *ngIf="indexElement % 2 == 0">
+                <div class="skill-box">{{item}}</div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <img class="img about-svg" src="../assets/images/about.svg">
+    </div>
+  </div>
+</div>
