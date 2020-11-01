@@ -22,3 +22,27 @@
       </div>
   </div>
 </div>
+<div class="container border">
+  <div class="container-fluid middle-line">
+      <div class="service-card ml-auto" *ngFor="let item of _jobs; let indexElement=index">
+          <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-secondary icon-text">
+                <i class="fa fa-building service-icon" aria-hidden="true"></i>{{item.company}} - {{item.rank}}
+              </strong>
+              <hr style="margin:1px !important;"><small>{{item.date}}</small>
+              <p class="p-3 mb-auto">{{item.description}}</p>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+      <div class="service-card"  *ngFor="let item of _educations; let indexElement=index">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-info icon-text">
+              <i class="fa fa-book service-icon" aria-hidden="true"></i>{{item.school}}
+            </strong>
+            <hr style="margin:1px !important;"><small>{{item.date}}</small>
+            <p class="p-3 mb-auto">{{item.description}}</p>
+          </div>
+      </div>
+  </div>
+</div>
