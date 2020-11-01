@@ -68,10 +68,10 @@ export const Testimonials  =
 
 export const SocialMedia =
 {
-    githubUrl:"github.com",
-    instagramUrl:"instagram.com",
-    twitterUrl:"twitter.com",
-    linkedinUrl:"linkedin.com",
-    mediumUrl:"medium.com",
-    facebookUrl:"facebook.com"
+    github:"github.com",
+    instagram:"instagram.com",
+    twitter:"twitter.com",
+    linkedin:"linkedin.com",
+    medium:"medium.com",
+    facebook:"facebook.com"
 }
