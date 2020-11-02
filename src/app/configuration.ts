@@ -10,36 +10,30 @@ export const Configuration =
     userPhone:"(540) 479-2232 10500",
     aboutMe:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed aliquam felis, quis pellentesque erat. Curabitur vel sodales purus. Nulla nibh mi, porttitor nec purus et, sagittis maximus justo. Suspendisse aliquam mauris id velit congue, vel volutpat nibh commodo. Pellentesque imperdiet enim id elementum commodo.",
 };
+
 //Personal Informations
+
 export const Skills  = 
 [
-    {skillName : "C#" , experience:90},
-    {skillName : ".Net Core" , experience:70},
-    {skillName : "Asp.Net" , experience:82},
-    {skillName : "Angular" , experience:80},
-    {skillName : "Typescript" , experience:76},
+    "C#",".Net Core","Angular","Asp.Net","Typescript","Javascript"
 ];
-//Max skills limit is 5 . If you add more than 5 skill , you may be disappointed.
 
-export const Skills2  = 
-[
-    "C#",".Net Core","Angular","Asp.Net","Typescript"
-];
+//Max skills limit is 6 . If you add more than 5 skill , you may be disappointed.
 
 export const JobExperience  = 
 [
-    {company : "Facebook" , rank : "Software Developer Intern" , date:"2018 July - 2018 September" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    {company : "Instagram" , rank : "Software Developer " , date:"2018 September - 2019 September" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    {company : "Uber" , rank : "Software Development Consultant" , date:"2019 September - Present" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+    {company : "Facebook" , rank : "Software Developer Intern" , date:"09/2018 - 07/2018" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {company : "Instagram" , rank : "Software Developer " , date:"09/2018- 07/2019" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {company : "Uber" , rank : "Software Development Consultant" , date:"09/2019 - Present" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
 ];
 
 //Max job experiences limit is 3 . If you add more than 3 skill , you may be disappointed.
 
 export const Education  = 
 [
-    { school : "Carnegie Mellon University" , date:"2006 July - 2010 September" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    { school : "University of Chicago" , date:"2010 September - 2014 September" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    { school : "Middlebury College" , date:"2016 September - Present" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+    { school : "Carnegie Mellon University" , date:"09/2006 - 07/2010" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    { school : "University of Chicago" , date:"09/2010 - 07/2014" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    { school : "Middlebury College" , date:"09/2016 - Present" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
 ];
 
 //Max education limit is 3 . If you add more than 3 skill , you may be disappointed.

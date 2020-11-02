@@ -1,4 +1,4 @@
-import { Configuration, Skills, Skills2 } from './../configuration';
+import { Configuration, Skills } from './../configuration';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,7 +12,7 @@ export class AboutComponent implements OnInit {
   skills:any;
   constructor() {
     this.aboutMe=Configuration.aboutMe; 
-    this.skills=Skills2;
+    this.skills=Skills;
   }
 
   ngOnInit() {
