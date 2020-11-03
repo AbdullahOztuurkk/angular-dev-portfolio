@@ -1,71 +1,47 @@
-<div class="container border">
-    <div class="container-fluid middle-line">
-        <div class="service-card ml-auto mt-5">
-            <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-info icon-text">
-                    <i class="fa fa-address-book service-icon" aria-hidden="true"></i>Address
-                </strong>
-                <hr style="margin: 1px !important" />
-                <p class="p-3 mb-auto">{{ _userAddress }}</p>
-            </div>
-        </div>
-        <div class="service-card ml-auto mt-5">
-            <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-info icon-text">
-                    <i class="fa fa-building service-icon" aria-hidden="true"></i>Lets
-                    Talk
-                </strong>
-                <hr style="margin: 1px !important" />
-                <p class="p-3 mb-auto">{{ _userPhone }}</p>
-            </div>
-        </div>
-        <div class="service-card ml-auto mt-5">
-            <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-info icon-text">
-                    <i class="fa fa-building service-icon" aria-hidden="true"></i>General
-                    Support
-                </strong>
-                <hr style="margin: 1px !important" />
-                <p class="p-3 mb-auto">{{ _userEmail }}</p>
-            </div>
+<div class="row ml-1">
+    <div class="col">
+        <div class="testimonial-card ">
+            <img src="../assets/images/Contact.svg" class="img-fluid contact-image">
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="service-card" style="height: 350px !important;">
-            <div class="col p-4">
+</div>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col">
+        <div class="contact-card">
+            <form class="form-group">
                 <h4 class="mb-3">Get in Touch with us</h4>
-                <form  class="form-group">
-                    <div class="form-group">
-                        <div class="input-group mb-4">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
-                            </div>
-                            <input type="text" class="form-control" id="FullName" placeholder="Full Name">
+                <div class="form-group">
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
                         </div>
+                        <input type="text" class="form-control" id="FullName" placeholder="Full Name">
                     </div>
-                    <div class="form-group">
-                        <div class="input-group mb-4">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
-                            </div>
-                            <input type="email" class="form-control" id="Email" placeholder="test@gmail.com">
+                </div>
+                <div class="form-group">
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
                         </div>
+                        <input type="email" class="form-control" id="Email" placeholder="test@gmail.com">
                     </div>
+                </div>
 
-                    <div class="form-group">
-                        <div class="input-group mb-4">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
-                            </div>
-                            <textarea class="form-control" placeholder="Your Message"></textarea>
+                <div class="form-group">
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
                         </div>
+                        <textarea class="form-control" placeholder="Your Message"></textarea>
                     </div>
+                </div>
 
-                    <div class="text-center">
-                        <input type="submit" value="Send" class="btn btn-info btn-block rounded-0 py-2">
-                    </div>
-                </form>
-            </div>
+                <div class="text-center">
+                    <input type="submit" value="Send" class="btn btn-info btn-block rounded-0 py-2">
+                </div>
+            </form>
         </div>
     </div>
+    <div class="col-md-2"></div>
 </div>
