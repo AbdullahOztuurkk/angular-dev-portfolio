@@ -15,18 +15,4 @@ export class TestimonialsComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  giveStars(review:number)
-  {
-    if(review>=80)
-      return 'bg-success';
-    else if (review>=60 && review < 80)
-      return 'bg-primary';
-    else if (review>=40 && review < 60)
-      return 'bg-info';
-    else if(review>=20 && review < 40)
-      return 'bg-warning';
-    else
-      return 'bg-danger';
-  }
 }
