@@ -5,13 +5,13 @@
     justify-content: center;
     align-items: center;
   }
-.service-card{
+.resume-card{
     width: 320px;
     min-height: 125px;
     height: 100%;
     /*margin: 0px 15px;*/
 }
-.service-icon{
+.resume-icon{
     height: 100%;
     width: 25px;
     color:green;
@@ -24,8 +24,17 @@
 .middle-line{
     border-right: 1px solid lightgray;
 }
+.resume-card-title{
+    color: black !important;
+    font-family: 'Inter', sans-serif;
+    min-height: 150px !important;
+}   
 .resume-title{
     color: blue !important;
     font-family: "Merriweather", serif;
     min-height: 150px !important;
+}
+.img-fluid{
+    width: 300px;
+    height: 200px;
 }

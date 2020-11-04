@@ -1,11 +1,11 @@
 <div class="row middle-line">
     <div class="col ml-3" >
-      <img src="../assets/images/Experience.svg" class="img-fluid float-right" width="80%" height="200px">
-      <h4 class="resume-title text-center mb-2">Experiences</h4>
+      <img src="../assets/images/Experience.svg" class="img-fluid float-right">
+      <h4 class="resume-title text-center">Experiences</h4>
       <div *ngFor="let item of _jobs">
-        <div class="service-card">
-          <strong class="service-card-title">
-            <i class="fa fa-building service-icon" aria-hidden="true"></i>{{item.company}} ( {{item.date}} )
+        <div class="resume-card">
+          <strong class="resume-card-title">
+            <i class="fa fa-building resume-icon" aria-hidden="true"></i>{{item.company}} ( {{item.date}} )
           </strong>
           <hr style="margin:1px !important;"><small>{{item.rank}}</small>
           <p class="mb-auto">{{item.description}}</p>
@@ -13,12 +13,12 @@
       </div>
     </div>
     <div class="col">
-      <img src="../assets/images/education.svg" class="img-fluid float-left" width="80%" max-height="200px">
+      <img src="../assets/images/education.svg" class="img-fluid float-left">
       <h4 class="resume-title text-center">Educations</h4>
       <div *ngFor="let item of _educations">
-        <div class="service-card">
-          <strong class="service-card-title">
-            <i class="fa fa-building service-icon" aria-hidden="true"></i>{{item.school}}
+        <div class="resume-card">
+          <strong class="resume-card-title">
+            <i class="fa fa-graduation-cap resume-icon" aria-hidden="true"></i>{{item.school}}
           </strong>
           <hr style="margin:1px !important;"><small>{{item.date}}</small>
           <p class="mb-auto">{{item.description}}</p>

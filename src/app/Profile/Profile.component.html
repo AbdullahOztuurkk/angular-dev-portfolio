@@ -1,22 +1,21 @@
-<img *ngIf="_profileUrl" [src]="_profileUrl" class="img rounded" alt="Profile Photo" width="260px" height="260px">
+<img *ngIf="_profileUrl" [src]="_profileUrl" class="img-fluid rounded" alt="Profile Photo" width="260px" height="260px">
 <h4 class="mt-3 text-center"><b>{{_userName}}</b></h4>
 <h6 class="text-center">{{_userJob}}</h6>
 <br><hr><br>
-<div class="container-fluid">
-    <i class="fa fa-map-marker mb-3 ml-6" style="width: 25px;" aria-hidden="true"></i>{{_userLocation}}
+<div class="container-fluid about-me">
+    <p><i class="fa fa-map-marker text-right" aria-hidden="true"></i>{{_userLocation}}</p>
     <br>
-    <i class="fa fa-envelope-o mb-3 ml-6" style="width: 25px;" aria-hidden="true"></i>{{_userEmail}}
+    <p><i class="fa fa-envelope-o text-right"aria-hidden="true"></i>{{_userEmail}}</p>
     <br>
-    <i class="fa fa-birthday-cake mb-3 ml-6" style="width: 25px;" aria-hidden="true"></i>{{_userDateOfBirth}}
-    <br>
+    <p><i class="fa fa-birthday-cake text-right" aria-hidden="true"></i>{{_userDateOfBirth}}</p>
 </div>
-<div class="card social-media">
-    <div class="col-md-12">
-        <i *ngIf="_instagram" style="color: purple;" class="fa fa-instagram service-icon" aria-hidden="true"></i>
-        <i *ngIf="_linkedin" style="color: darkblue;" class="fa fa-linkedin service-icon" aria-hidden="true"></i>
-        <i *ngIf="_medium" style="color: black;" class="fa fa-medium service-icon" aria-hidden="true"></i>
-        <i *ngIf="_twitter" style="color: aqua;" class="fa fa-twitter service-icon" aria-hidden="true"></i>
-        <i *ngIf="_facebook" style="color: darkblue;" class="fa fa-facebook service-icon" aria-hidden="true"></i>
-        <i *ngIf="_github"  style="color: black;"class="fa fa-github service-icon" aria-hidden="true"></i>
+<div class="row d-flex align-content-end">
+    <div class="col-md-12 social-media">
+        <i *ngIf="_instagram" style="color: purple;" class="fa fa-instagram profile-icon" aria-hidden="true"></i>
+        <i *ngIf="_linkedin" style="color: darkblue;" class="fa fa-linkedin profile-icon" aria-hidden="true"></i>
+        <i *ngIf="_medium" style="color: black;" class="fa fa-medium profile-icon" aria-hidden="true"></i>
+        <i *ngIf="_twitter" style="color: aqua;" class="fa fa-twitter profile-icon" aria-hidden="true"></i>
+        <i *ngIf="_facebook" style="color: darkblue;" class="fa fa-facebook profile-icon" aria-hidden="true"></i>
+        <i *ngIf="_github"  style="color: black;"class="fa fa-github profile-icon" aria-hidden="true"></i>
     </div>
 </div>

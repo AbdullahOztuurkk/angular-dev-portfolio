@@ -1,8 +1,7 @@
 .contact-card{
-    width: 600px;
+    width: 100%;
     text-align: center;
     height: 250px;
-    margin: 0px 15px;
 }
 .icon-text{
     margin-left: 20px;
@@ -15,5 +14,7 @@
     display: block;
     margin: auto;
     padding-bottom: 40px;
-    padding-left: 20px;
+}
+.contact-card>form>h4{
+    font-family: 'Inter', sans-serif;
 }
