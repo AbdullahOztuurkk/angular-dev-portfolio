@@ -18,7 +18,7 @@ export const Skills  =
     "C#",".Net Core","Angular","Asp.Net","Typescript","Javascript"
 ];
 
-//Max skills limit is 6 . If you add more than 5 skill , you may be disappointed.
+//Max skills limit is 6 . If you add more than 6 skill , you may be disappointed.
 
 export const JobExperience  = 
 [

@@ -3,7 +3,7 @@
 ## A clean, minimal and responsive portfolio template for Developers!
 
 <p align="center">
-	<img src="https://media.giphy.com/media/Y0bOUi6FfLqlHX6NjE/giphy.gif"></img>
+	<img src="./src/assets/images/portfolio-showcase.gif"></img>
 </p>
 
 
@@ -30,7 +30,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Testimonials\
 ✔️ Contact me
 
-To view a live example, **[click here](https://devportfolio-cda80.web.app)**.
+To view a live example, **[click here](https://dev-portfolio-en.web.app/)**.
 
 
 ## Getting Started
@@ -103,17 +103,17 @@ export  const SocialMedia =
 
 {
 
-githubUrl:"github.com",
+github:"github.com",
 
-instagramUrl:"instagram.com",
+instagram:"instagram.com",
 
-twitterUrl:"twitter.com",
+twitter:"twitter.com",
 
-linkedinUrl:"linkedin.com",
+linkedin:"linkedin.com",
 
-mediumUrl:"medium.com",
+medium:"medium.com",
 
-facebookUrl:"facebook.com"
+facebook:"facebook.com"
 
 }
 ```
