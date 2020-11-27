@@ -1,14 +1,14 @@
 export const Configuration =
 {
-    profileUrl:"https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    profileUrl:"https://avatars2.githubusercontent.com/u/54680491?s=460&u=8d75b0e5a475bc8cd6f94aa5612e2b86faff6207&v=4",
     userName:"Abdullah Öztürk",
     userJob:"Software Developer",
     userLocation:"İstanbul",
-    userEmail:"test@abdullah.com",
-    userDateOfBirth:"12/12/2012",
-    userAddress:"Chesterwood Dr Spotsylvania, Virginia(VA), 22553",    
-    userPhone:"(540) 479-2232 10500",
-    aboutMe:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed aliquam felis, quis pellentesque erat. Curabitur vel sodales purus. Nulla nibh mi, porttitor nec purus et, sagittis maximus justo. Suspendisse aliquam mauris id velit congue, vel volutpat nibh commodo. Pellentesque imperdiet enim id elementum commodo.",
+    userEmail:"oabdullahozturk@yandex.com",
+    userDateOfBirth:"12/09/1998",
+    userAddress:"Bahçelievler / Istanbul",    
+    userPhone:"(555) 123 4567",
+    aboutMe:"Abdullah Öztürk. I am fullstack developer and blogger. I interested in .net technologies for backend and angular for frontend. You can read my articles on medium.",
 };
 
 //Personal Informations
@@ -22,18 +22,16 @@ export const Skills  =
 
 export const JobExperience  = 
 [
-    {company : "Facebook" , rank : "Software Developer Intern" , date:"09/2018 - 07/2018" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    {company : "Instagram" , rank : "Software Developer " , date:"09/2018- 07/2019" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    {company : "Uber" , rank : "Software Development Consultant" , date:"09/2019 - Present" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+    {company : "IBM / Serii" , rank : "Logistic Support Personal " , date:"07/2017 - 08/2016" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {company : "Albayrak Bilgisayar" , rank : "Technical Service Personal" , date:"07/2015 - 07/2015" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
 ];
 
 //Max job experiences limit is 3 . If you add more than 3 skill , you may be disappointed.
 
 export const Education  = 
 [
-    { school : "Carnegie Mellon University" , date:"09/2006 - 07/2010" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    { school : "University of Chicago" , date:"09/2010 - 07/2014" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    { school : "Middlebury College" , date:"09/2016 - Present" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+    { school : "Sivas Cumhuriyet University" , date:"09/2018 - Present" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    { school : "Türk Telekom Vocational High School" , date:"09/2013 - 07/2017" , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
 ];
 
 //Max education limit is 3 . If you add more than 3 skill , you may be disappointed.
@@ -41,8 +39,7 @@ export const Education  =
 export const Services  = 
 [
     { serviceName : "Web Design" ,  description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    { serviceName : "Desktop Management"  , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    { serviceName : "Mobile Development"  , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    { serviceName : "Desktop Development"  , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
     { serviceName : "Software Architecture"  , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
     { serviceName : "Social Media Management"  , description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
     { serviceName : "Logo Design" ,  description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}

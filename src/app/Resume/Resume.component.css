@@ -5,6 +5,9 @@
     justify-content: center;
     align-items: center;
   }
+h4{
+    font-family: 'Inter', sans-serif;
+}
 .resume-card{
     width: 320px;
     min-height: 125px;
@@ -31,7 +34,7 @@
 }   
 .resume-title{
     color: blue !important;
-    font-family: "Merriweather", serif;
+    font-family: 'Inter', sans-serif;
     min-height: 150px !important;
 }
 .img-fluid{

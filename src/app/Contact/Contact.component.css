@@ -2,11 +2,7 @@
     width: 100%;
     text-align: center;
     height: 250px;
-}
-.icon-text{
-    margin-left: 20px;
-    margin-top: -20px;
-    float: left;
+    font-family: 'Inter',sans-serif;
 }
 .contact-image{
     width: 370px;
@@ -16,5 +12,5 @@
     padding-bottom: 40px;
 }
 .contact-card>form>h4{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter',sans-serif;
 }
