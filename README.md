@@ -13,10 +13,10 @@ Creating a portfolio can take a long time since everything might be made from sc
 - [Sections](#sections)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
-- [Contributing] (#contributing)
+- [Contributing](#contributing)
 - [Change and Customize](#change-and-customize-every-section-according-to-your-need)
 - [Technologies Used](#technologies-used)
-- [License] (#license)
+- [License](#license)
 
 ## Sections
 ✔️ About\
