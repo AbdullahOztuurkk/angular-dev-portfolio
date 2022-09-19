@@ -6,20 +6,17 @@
 	<img src="./src/assets/images/portfolio-showcase.gif"></img>
 </p>
 
-
-Just change `src/app/configurations.ts` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
-
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/abdullahoztuurkk/devportfolio/issues).
-
-
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/abdullahoztuurkk/devportfolio/pulls).
+### Motivation
+Creating a portfolio can take a long time since everything might be made from scratch. Moreover, the need of having a portfolio is essential for many developers. Having a nice and clean personal portfolio can impress several companies when applying for jobs or it can be something that developers want to show off to their friends. Therefore, Minimal Developer Portfolio is created to support and help programmers in many ways.
 
 ## Table of Contents
 - [Sections](#sections)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
+- [Contributing](#contributing)
 - [Change and Customize](#change-and-customize-every-section-according-to-your-need)
 - [Technologies Used](#technologies-used)
+- [License](#license)
 
 ## Sections
 ✔️ About\
@@ -118,6 +115,18 @@ facebook:"facebook.com"
 }
 ```
 
+## Contributing
+Just change `src/app/configurations.ts` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+ 
+But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/abdullahoztuurkk/devportfolio/issues).
+ 
+ 
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/abdullahoztuurkk/devportfolio/pulls).
+- Fork the project
+- Create a new branch (git checkout -b your-branch)
+- Create your new changes then commit your changes (git add . && git commit -n "New changes/issues")
+- Push your branch to the project (git push origin your-branch)
+- Submit your pull request
 
 ## Technologies Used 
 
@@ -125,4 +134,9 @@ facebook:"facebook.com"
 - [Bootstrap](https://www.apollographql.com/docs/react/get-started/)
 - [Font-awesome](https://github.com/saurabhnemade/react-twitter-embed)
 - [Bootswatch](https://github.com/appfigures/react-easy-emoji)
+
+## License
+ 
+License documentation link. Creating a new MIT License is recommended.
+
 
