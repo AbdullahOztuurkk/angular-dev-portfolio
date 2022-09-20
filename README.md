@@ -137,6 +137,6 @@ If you created something awesome and want to contribute then feel free to open a
 
 ## License
  
-License documentation link. Creating a new MIT License is recommended.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/AbdullahOztuurkk/angular-dev-portfolio/blob/master/LICENSE.md) file for details.
 
 
